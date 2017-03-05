@@ -63,3 +63,23 @@ captures/
 # External native build folder generated in Android Studio 2.2 and later
 .externalNativeBuild
 
+.idea/compiler.xml
+.idea/copyright/
+.idea/dbnavigator.xml
+.idea/encodings.xml
+.idea/gradle.xml
+.idea/inspectionProfiles/
+.idea/libraries/
+.idea/misc.xml
+.idea/modules.xml
+.idea/runConfigurations.xml
+Ios7Calendar.iml
+app/
+build.gradle
+expandablecalendar/
+gradle.properties
+gradle/
+gradlew
+gradlew.bat
+import-summary.txt
+settings.gradle
