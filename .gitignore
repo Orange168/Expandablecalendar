@@ -30,7 +30,7 @@ hs_err_pid*
 bin/
 gen/
 out/
-/app
+
 
 # Gradle files
 .gradle/
@@ -73,13 +73,14 @@ captures/
 .idea/misc.xml
 .idea/modules.xml
 .idea/runConfigurations.xml
-Ios7Calendar.iml
-app/
+
+
 build.gradle
-expandablecalendar/
+
 gradle.properties
 gradle/
 gradlew
 gradlew.bat
 import-summary.txt
-settings.gradle
+
+.idea/markdown-navigator/

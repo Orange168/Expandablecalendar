@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Ios7Calendar.iml" filepath="$PROJECT_DIR$/Ios7Calendar.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Expandablecalendar.iml" filepath="$PROJECT_DIR$/Expandablecalendar.iml" />
       <module fileurl="file://$PROJECT_DIR$/expandablecalendar/expandablecalendar.iml" filepath="$PROJECT_DIR$/expandablecalendar/expandablecalendar.iml" />
     </modules>
   </component>

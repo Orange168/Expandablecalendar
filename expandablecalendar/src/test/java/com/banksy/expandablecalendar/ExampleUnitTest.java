@@ -103,4 +103,23 @@ public class ExampleUnitTest {
     System.out.println("DST_OFFSET: "
         + (calendar.get(Calendar.DST_OFFSET)/(60*60*1000))); // in hours
   }
+
+  @Test public void TestCalenderData(){
+    Calendar mCalendar = Calendar.getInstance();
+    int mCurWeek = mCalendar.get(Calendar.DAY_OF_WEEK);
+    System.out.println("DAY_OF_WEEK ==> " + mCurWeek);
+    System.out.println("DAY_OF_MONTH ==> " + mCalendar.get(Calendar.DAY_OF_MONTH));
+
+
+    if (mCurWeek != 7) {// not Saturday
+      mCalendar.add(Calendar.DAY_OF_YEAR,- mCalendar.get(Calendar.DAY_OF_WEEK));
+    }
+
+    System.out.println("DAY_OF_MONTH ==> " + mCalendar.get(Calendar.DAY_OF_MONTH));
+    for (int i = 0; i < 6; i++) {
+      mCalendar.add(Calendar.DAY_OF_YEAR, 1);
+      System.out.println("==>>" + mCalendar.get(Calendar.DAY_OF_MONTH));
+    }
+  }
+
 }
